@@ -1,88 +1,90 @@
-Velox Resurrected Main (0.19.3b) - Tinkers Release
+### Velox Resurrected Main (0.19.3b) - Tinkers Release
 
 Hope everyone has been having a good new year so far. With this update, I am happy to have Tinkers' Construct last seen in Velox Classic. This mod is fresh off the block, so if you experience any bugs related to it, make sure to report it to the mod author. With that said, I have worked hard to ensure the recyclability of the Create Crusher is carried over to Tinkers' Construct, so you can now melt hundreds of items/blocks into various molten metals. Also embers, and Tinkers' Construct work better now, outputting the same molten metal, and you can also alloy Dawnstone with Tinkers' forge. There is also a brand new questline for Tinkers' Construct, as well as other questlines such as Mana and Artifice, have been expanded upon.
 Thank you, everyone, for your continued support, and for sharing, downloading, and playing Velox Resurrected. ♥
 
-Updates:
-Added 4 silver Armor pieces from Wandering Bags as new crushing recipes.
-Added 5 new bronze shields from Epic Knights as crushing recipes
-Added 5 new copper shields from Epic Knights as crushing recipes
-Added 5 new diamond shields from Epic Knights as crushing recipes
-Added 5 new gold shields from Epic Knights as crushing recipes
-Added 5 new iron shields from Epic Knights as crushing recipes
-Added 5 new netherite shields from Epic Knights as crushing recipes
-Added 5 new steel shields from Epic Knights as crushing recipes
-Added 5 new stone shields from Epic Knights as crushing recipes
-Added 5 new tin shields from Epic Knights as crushing recipes
-Added 5 new wooden shields from Epic Knights as crushing recipes
-Added 11 Netherite Divine Weaponry as crushing items.
-Added 12 new quests under Mementos.
-Added 17 new quests under Mana and Artifice.
-Added 19 bronze Epic Knights' weapons as crushing recipes.
-Added 19 copper Epic Knights' weapons as crushing recipes.
-Added 19 netherite Epic Knights' weapons as crushing recipes.
-Added 19 silver Epic Knights' weapons as crushing recipes.
-Added 19 steel Epic Knights' weapons as crushing recipes.
-Added 19 tin Epic Knights' weapons as crushing recipes.
-Added 29 Age of Weapon netherite items as crushing recipes.
-Added 602+ new items as items able to be melted by Tinkers' Construct melting(should now be comparable to the crusher).
-Added a new Questline for Tinkers' Construct.
-Added a new quest under Nether for Tinkers' Blood Island.
-Added a new quest under The End for Tinkers' Enderslime Island.
-Added a new trophy for Ability Master under Tinkers' Construct questline.
-Added a new trophy for Cast Collector under Tinkers' Construct questline.
-Added a new trophy for Tool Forge under Tinkers' Construct questline.
-Added compatibility between Embers and Tinker's Construct, each will make the same type of molten metals.
-Added Desert Nova as a growable plant via botany pots.
-Added Epic Knights' Armet helm as a crushing recipe.
-Added Epic Knights' Barding horse armor as a crushing recipe.
-Added Iron Machete to create crushing recipes.
-Added new dawnstone alloy recipe for TConstruct alloying.
-Added new Teleportation ritual quest under GOETY.
-Added Tarma Root as a growable plant via botany pots.
-Added two new quests under Create teaching about schematics and how to get other people's design in your game, and have a cannon build it for you.
-Added Wakebloom as a growable plant via botany pots.
-Changed output for crushed Sterling horse armor to sliver nuggets instead of iron.
-Changed the chest recipe fix to disallow chest like ender chests from being used in common recipes.
-Disabled Tinker's Book given on default.
-Fixed Age of Weapons crushing recipes for the various maces.
-Fixed Shiverstone Regalium ore crushing recipe.
-Magical Jewelry can be smelted using Tinker's forge.
-Moved Magnifying Quest under create.
-Netherite armor can be crushed now.
-Removed Duplicate Diamond Warhammer crushing recipe.
-Removed duplicate magical protection from Ensorcellation.
-Removed duplicate soulbound enchanted book from Ars Elemental.
-Removed duplicate soulbound enchantment from Ensorcellation.
-Removed Evil Craft's life-stealing enchantment since it is similar to other enchantments.
-Removed Insight enchantment due to being similar to another xp gaining enchantment Enlightenment.
-Removed Leech duplicate enchantment from Ensorcellation.
-Updated "A Magical Magnetic Meta" reward under Mana and Artifice.
-Updated Alexscaves Limestone to Ancient Limestone.
-Updated Ars Nouveau Mana Regen and Boost enchantment title to help clarify which mana from which mod is being affected.
-Updated emergency item eccentric tome with new Tinker's book.
-Updated MNA's Mana Repair to clarify which mana from which mod is being used.
-Updated Quark's Limestone to Dark Limestone.
-Updated Sky Ritual icon under GOETY.
-Zanite gloves from Aether can be crushed now.
-Added Mods/Datapacks:
+## Updates:
+- Added 4 silver Armor pieces from Wandering Bags as new crushing recipes.
+- Added 5 new bronze shields from Epic Knights as crushing recipes
+- Added 5 new copper shields from Epic Knights as crushing recipes
+- Added 5 new diamond shields from Epic Knights as crushing recipes
+- Added 5 new gold shields from Epic Knights as crushing recipes
+- Added 5 new iron shields from Epic Knights as crushing recipes
+- Added 5 new netherite shields from Epic Knights as crushing recipes
+- Added 5 new steel shields from Epic Knights as crushing recipes
+- Added 5 new stone shields from Epic Knights as crushing recipes
+- Added 5 new tin shields from Epic Knights as crushing recipes
+- Added 5 new wooden shields from Epic Knights as crushing recipes
+- Added 11 Netherite Divine Weaponry as crushing items.
+- Added 12 new quests under Mementos.
+- Added 17 new quests under Mana and Artifice.
+- Added 19 bronze Epic Knights' weapons as crushing recipes.
+- Added 19 copper Epic Knights' weapons as crushing recipes.
+- Added 19 netherite Epic Knights' weapons as crushing recipes.
+- Added 19 silver Epic Knights' weapons as crushing recipes.
+- Added 19 steel Epic Knights' weapons as crushing recipes.
+- Added 19 tin Epic Knights' weapons as crushing recipes.
+- Added 29 Age of Weapon netherite items as crushing recipes.
+- Added 602+ new items as items able to be melted by Tinkers' Construct melting(should now be comparable to the crusher).
+- Added a new Questline for Tinkers' Construct.
+- Added a new quest under Nether for Tinkers' Blood Island.
+- Added a new quest under The End for Tinkers' Enderslime Island.
+- Added a new trophy for Ability Master under Tinkers' Construct questline.
+- Added a new trophy for Cast Collector under Tinkers' Construct questline.
+- Added a new trophy for Tool Forge under Tinkers' Construct questline.
+- Added compatibility between Embers and Tinker's Construct, each will make the same type of molten metals.
+- Added Desert Nova as a growable plant via botany pots.
+- Added Epic Knights' Armet helm as a crushing recipe.
+- Added Epic Knights' Barding horse armor as a crushing recipe.
+- Added Iron Machete to create crushing recipes.
+- Added new dawnstone alloy recipe for TConstruct alloying.
+- Added new Teleportation ritual quest under GOETY.
+- Added Tarma Root as a growable plant via botany pots.
+- Added two new quests under Create teaching about schematics and how to get other people's design in your game, and have a cannon build it for you.
+- Added Wakebloom as a growable plant via botany pots.
+- Changed output for crushed Sterling horse armor to sliver nuggets instead of iron.
+- Changed the chest recipe fix to disallow chest like ender chests from being used in common recipes.
+- Disabled Tinker's Book given on default.
+- Fixed Age of Weapons crushing recipes for the various maces.
+- Fixed Shiverstone Regalium ore crushing recipe.
+- Magical Jewelry can be smelted using Tinker's forge.
+- Moved Magnifying Quest under create.
+- Netherite armor can be crushed now.
+- Removed Duplicate Diamond Warhammer crushing recipe.
+- Removed duplicate magical protection from Ensorcellation.
+- Removed duplicate soulbound enchanted book from Ars Elemental.
+- Removed duplicate soulbound enchantment from Ensorcellation.
+- Removed Evil Craft's life-stealing enchantment since it is similar to other enchantments.
+- Removed Insight enchantment due to being similar to another xp gaining enchantment Enlightenment.
+- Removed Leech duplicate enchantment from Ensorcellation.
+- Updated "A Magical Magnetic Meta" reward under Mana and Artifice.
+- Updated Alexscaves Limestone to Ancient Limestone.
+- Updated Ars Nouveau Mana Regen and Boost enchantment title to help clarify which mana from which mod is being affected.
+- Updated emergency item eccentric tome with new Tinker's book.
+- Updated MNA's Mana Repair to clarify which mana from which mod is being used.
+- Updated Quark's Limestone to Dark Limestone.
+- Updated Sky Ritual icon under GOETY.
+- Zanite gloves from Aether can be crushed now.
 
-Tinker's Construct
+## Added Mods/Datapacks:
+
+####Tinker's Construct
 Tinkers' Construct is a mod about putting tools together in a wide variety of ways, then modifying them until they turn into something else. The tools never disappear and can be named and changed to your heart's desire. Once you make them, they're yours forever. Many different materials can be used to make your tools.
 Removed Mods/Datapacks:
 
-Recipe Essentials[Forge/Fabric]
+####Recipe Essentials[Forge/Fabric]
 Compatibility issues with FastSuite and EvilCraft Infusor recipes.
-Updated Mods:
 
-[❄WINTER] Furnitury (Reeves's Furniture)
+## Updated Mods:
 
-Mod optimization
-New storage blocks: Boxes (All wood types)
-New GUI: Box GUI
-New crafting recipes
-New item: Light Bulb (Use to craft lamps)
-Bug fixes
+#### [❄WINTER] Furnitury (Reeves's Furniture)
+
+- Mod optimization
+- New storage blocks: Boxes (All wood types)0
+- New GUI: Box GUI
+- New crafting recipes
+- New item: Light Bulb (Use to craft lamps)
+- Bug fixes
 [Let's Do] Vinery
 
 Added JEI support for Apple Press Fermenting & Mashing
