@@ -1,4 +1,4 @@
-name: I found a bug!
+name: "I found a bug!"
 description: "Report a modpack bug here. Make sure you have checked and made sure it isn't a known mod issue by checking their issues page."
 title: "[Bug]: "
 labels: ["bug"]
