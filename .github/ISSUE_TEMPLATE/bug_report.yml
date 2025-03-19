@@ -1,64 +1,63 @@
-name: Bug Report
-description: File a bug report.
+name: I found a bug!
+description: "Report a modpack bug here. Make sure you have checked and made sure it isn't a known mod issue by checking their issues page."
 title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thank you for taking the time to fill out this bug report, it helps Velox grow and improve!
   - type: input
-    id: contact
+    id: bug
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Describe the Bug
+      description: A clear and concise description of what the bug is. Explain what happened, and what should have happened instead.
+        Add images, screenshots, or videos if they could be useful.
     validations:
-      required: false
-  - type: textarea
-    id: what-happened
+      required: true
+       - type: input
+    id: steps
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: Step 1: Place this item... Step 2: Then do...
+    validations:
+      required: true
+  - type: textarea
+    id: suspect
+    attributes:
+      label: Suspected mod at issue.
+      description: Is it a mod causing the issue, an item from a mod not working correctly? If it is just a modpack recipe issue, then just include Velox. Be sure to also create a bug report with the mod at issue too, and link back here.
+      placeholder: Velox
     validations:
       required: true
   - type: dropdown
     id: version
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Minecraft Version
+      description: What version of Minecraft are you running?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - 1.20.1 (Velox Resurrected)
+        - 1.18.2 (Velox Classic)
       default: 0
     validations:
       required: true
-  - type: dropdown
-    id: browsers
+  - type: input
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      label: Game Log
+      description: >
+        We need the game log for additional information about the bug.
+        This file can be found in the \"logs\" folder of your Minecraft folder as \"latest.log\".
+        Please upload the file to https://mclo.gs/ and put the link here.
+        Also, if your game is crashing, include your most recent crash(today's date), which can be found in \"crash-logs\" folder.
+        Do **not** paste the *contents* of either file here, because that will make this issue very hard to read.
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
+      label: Double Checked
+      description: Before you submit, for non-modpack issues, make sure you report it directly to the mod author and link it in your report. Insure you have included any appropriate files or attachments.
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I have reviewed this report, and confirmed I have filled out all required info, and attached log files.
           required: true
