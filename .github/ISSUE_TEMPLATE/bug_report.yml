@@ -7,6 +7,7 @@ body:
     attributes:
       value: |
         Thank you for taking the time to fill out this bug report, it helps Velox grow and improve!
+        
   - type: input
     id: bug
     attributes:
@@ -14,7 +15,8 @@ body:
       description: A clear and concise description of what the bug is. Explain what happened, and what should have happened instead. Add images, screenshots, or videos if they could be useful.
     validations:
       required: true
-       - type: input
+      
+    - type: input
     id: steps
     attributes:
       label: Steps to Reproduce
@@ -22,6 +24,7 @@ body:
       placeholder: Step 1: Place this item... Step 2: Then do...
     validations:
       required: true
+      
   - type: textarea
     id: suspect
     attributes:
@@ -30,6 +33,7 @@ body:
       placeholder: Velox
     validations:
       required: true
+      
   - type: dropdown
     id: version
     attributes:
@@ -41,6 +45,7 @@ body:
       default: 0
     validations:
       required: true
+      
   - type: input
     attributes:
       label: Game Log
@@ -52,6 +57,7 @@ body:
         Do **not** paste the *contents* of either file here, because that will make this issue very hard to read.
     validations:
       required: true
+      
   - type: checkboxes
     id: terms
     attributes:
