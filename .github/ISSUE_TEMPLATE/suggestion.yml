@@ -17,7 +17,8 @@ body:
         - New Modpack Item
         - New Modpack Structure
         - New Recipe
-        - New Resourcepack/Shader
+        - New Resourcepack
+        - New Shader
       default: 0
     validations:
       required: true
