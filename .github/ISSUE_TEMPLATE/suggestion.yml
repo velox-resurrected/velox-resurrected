@@ -8,10 +8,9 @@ body:
       value: |
         Thank you for taking the time to fill out this suggestion feedback, it helps Velox grow and improve!     
   - type: dropdown
-    id: category
     attributes:
       label: Type of Suggestion
-      description: What type of suggestion?
+      description: "What type of suggestion?"
       options:
         - New Mod
         - New Datapack
@@ -22,21 +21,18 @@ body:
     validations:
       required: true
   - type: input
-    id: bug
     attributes:
       label: Name of Suggested item
       description: "Name of mod/data pack/resource/shader with link to Curseforge/Modrinth page."
       placeholder: Shadow Realms
       required: true  
   - type: textarea
-    id: explain
     attributes:
       label: Explain your idea/suggestion.
-      description: Why it should be included or describe your new recipe/item idea.
+      description: "Why it should be included or describe your new recipe/item idea."
       placeholder: It is a good fit because... The modpack needs this recipe...
       required: true
   - type: dropdown
-    id: version
     attributes:
       label: Minecraft Version
       description: What version of Minecraft are you running?
