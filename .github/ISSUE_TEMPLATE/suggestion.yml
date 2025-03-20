@@ -12,18 +12,19 @@ body:
       label: Type of Suggestion
       description: "What type of suggestion?"
       options:
-        - New Mod
         - New Datapack
-        - New Resourcepack/Shader
+        - New Mod
+        - New Modpack Item
+        - New Modpack Structure
         - New Recipe
-        - New modpack item/structure
+        - New Resourcepack/Shader
       default: 0
     validations:
       required: true
   - type: input
     attributes:
       label: Name of Suggested item
-      description: "Name of mod/data pack/resource/shader with link to Curseforge/Modrinth page."
+      description: "Name of mod, data pack, resource, or shader with link to Curseforge or Modrinth page."
       placeholder: Shadow Realms
       required: true  
   - type: textarea
