@@ -1,4 +1,8 @@
 # Velox Resurrected
+It is a mod-pack that was made as a need for a mod-pack that was not only quest-centered but heavily focused on mod cross-compatibility. Plus it also gave a chance to revive an old mod-pack that we used to work on. This mod-pack aims at making all mods included not only mesh together but also allow players to explore, quest, and play Minecraft in a new way.
+
+Here you can submit bug reports or suggestions, check out full changelogs, and more.
+
 
 <!--
 **velox-resurrected/velox-resurrected** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
