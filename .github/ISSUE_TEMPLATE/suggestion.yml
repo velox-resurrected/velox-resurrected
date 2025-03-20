@@ -27,12 +27,14 @@ body:
       label: Name of Suggested item
       description: "Name of mod, data pack, resource, or shader with link to Curseforge or Modrinth page."
       placeholder: Shadow Realms
+    validations:
       required: true  
   - type: textarea
     attributes:
-      label: Explain your idea/suggestion.
-      description: "Why it should be included or describe your new recipe/item idea."
+      label: Explain your idea or suggestion.
+      description: "Why it should be included or describe your new recipe or item idea."
       placeholder: It is a good fit because... The modpack needs this recipe...
+    validations:
       required: true
   - type: dropdown
     attributes:
