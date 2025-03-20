@@ -1,0 +1,48 @@
+name: "Modpack Suggestion"
+description: "Have a new mod to suggest? Find a cool resource pack? Maybe you have an idea for a modpack recipe or item!"
+title: "[Suggestion]: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill out this suggestion feedback, it helps Velox grow and improve!     
+  - type: dropdown
+    id: category
+    attributes:
+      label: Type of Suggestion
+      description: What type of suggestion?
+      options:
+        - New Mod
+        - New Datapack
+        - New Resourcepack/Shader
+        - New Recipe
+        - New modpack item/structure
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: bug
+    attributes:
+      label: Name of Suggested item
+      description: "Name of mod/data pack/resource/shader with link to Curseforge/Modrinth page."
+      placeholder: Shadow Realms
+      required: true  
+  - type: textarea
+    id: explain
+    attributes:
+      label: Explain your idea/suggestion.
+      description: Why it should be included or describe your new recipe/item idea.
+      placeholder: It is a good fit because... The modpack needs this recipe...
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Minecraft Version
+      description: What version of Minecraft are you running?
+      options:
+        - 1.20.1 (Velox Resurrected)
+        - 1.18.2 (Velox Classic)
+      default: 0
+    validations:
+      required: true
